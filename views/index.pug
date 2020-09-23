@@ -1,0 +1,60 @@
+//- index.pug
+doctype html
+html
+  head
+    title Saurabh Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="static/img/ballet.png")
+                | SDA    
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Contact us]
+            li #[a(href="/") Class info]
+
+    section#introSection
+        div Welcome to your Dance Academy
+        div.small Eat Dance Sleep Repeat
+
+    section#missionSection
+        h3 Our Mission
+        div.card
+            h4 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="static/img/katthakgirl.png")
+                div.card-content
+                    p Over 100 set of easy to apply Dance Improvisation Tools; solo - duets -contact - group, applicable into your own work and relations.Energy activation and working within the flow of the energy.Breathing as carrier of the awareness & Improvisation.
+        div.card
+            h4 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="static/img/handman.png")
+                div.card-content
+                    p  Ranging from Classical ballet to Martial arts, from Modern to Contemporary dance, from Tai Chi and Qi Gong to Kundalini and Dynamic meditation, from Dance to Contact improvisation and from Artistic experience to Therapy and Leadership. 
+        div.card
+            h4 Expert Teaching  
+            div.card-box
+                div.card-img
+                    img(src="static/img/girl.png")
+                div.card-content
+                    p This is the best dance academy in Universe. Teaching methods we use are synthesis of dance techniques and tools, that we have intensively experimenting with and developed throughout the last 25 years.Use of instinct for clear decisions and reactions.
+             
+    section#sponsorsSection
+        h2 Our Sponsers
+        div#sponsors
+            img(src="static/img/Apple-logo.png" alt="Sponsor-image" class="spImage")
+            img(src="static/img/microsoft.png" alt="Sponsor-image" class="spImage")
+            img(src="static/img/skype.png" alt="Sponsor-image" class="spImage")
+            img(src="static/img/hp.png" alt="Sponsor-image" class="spImage")
+            
+    footer#footer
+        div.center
+        | Copyright 2020 &copy; | www.SaurabhDanceAcademy.com  |  All rights reserved!
+    script
+      include ../static/index.js

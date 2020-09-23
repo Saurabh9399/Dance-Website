@@ -1,0 +1,29 @@
+h2{
+    text-align : center;
+    margin:12px 0;
+}
+.myInput{
+    display:block;
+    margin:8px auto;
+    padding:4px 10px;
+    border-radius:9px;
+    width:40%;
+    outline:none;
+}
+.btn{
+  display:block;
+  margin: 4px auto 20px;
+  background-color:gray;
+  width:15%;
+  padding:10px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover{
+    background-color: cyan;
+
+}
+.container{
+    min-height:75vh;
+}
